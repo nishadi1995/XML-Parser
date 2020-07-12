@@ -11,9 +11,9 @@
  
 - XML_Paser_2 => 
 
-- XML_Paser_3 => 
+- XML_Paser_3 =>   
     Run 'mvn dependency:tree -DoutputType=txt -DoutputFile=dependency_tree.txt' in maven project  
-    Input two dependency_tree.txt files
-    Compare them to check whether one dependency set is a subset of the other
+    Input two dependency_tree.txt files  
+    Compare them to check whether one dependency set is a subset of the other  
 
   
