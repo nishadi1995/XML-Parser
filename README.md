@@ -12,8 +12,8 @@
 - XML_Paser_2 =>  
     Run 'mvn dependency:tree -DoutputType=txt -DoutputFile=dependency_tree.txt' in maven project  
     Input dependency_tree.txt file  
-    This creates the dependency tree in lists and dictionaries
-<br>
+    This creates the dependency tree in lists and dictionaries  
+
 - XML_Paser_3 =>   
     Run 'mvn dependency:tree -DoutputType=txt -DoutputFile=dependency_tree.txt' in maven project  
     Input two dependency_tree.txt files  
