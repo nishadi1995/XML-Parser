@@ -9,8 +9,11 @@
  derive maven dependencies from the dependency tag in to two sets
  compare them to check whether one dependency set is a subset of the other
  
-- XML_Paser_2 => 
-
+- XML_Paser_2 =>  
+    Run 'mvn dependency:tree -DoutputType=txt -DoutputFile=dependency_tree.txt' in maven project  
+    Input dependency_tree.txt file  
+    This creates the dependency tree in lists and dictionaries
+<br>
 - XML_Paser_3 =>   
     Run 'mvn dependency:tree -DoutputType=txt -DoutputFile=dependency_tree.txt' in maven project  
     Input two dependency_tree.txt files  
